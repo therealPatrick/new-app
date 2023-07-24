@@ -32,10 +32,10 @@ const Hero = () => {
             ].join(' ')}
           >
             <nav className="flex flex-col w-full space-x-0 space-y-3 text-center md:space-y-0 md:space-x-3 md:flex-row">
-              <a className="px-5 py-2 rounded hover:bg-gray-100">Guides</a>
+              <a className="px-5 py-2 rounded hover:bg-gray-100">Product</a>
+              <a className="px-5 py-2 rounded hover:bg-gray-100">Features</a>
               <a className="px-5 py-2 rounded hover:bg-gray-100">Pricing</a>
-              <a className="px-5 py-2 rounded hover:bg-gray-100">Blog</a>
-              <a className="px-5 py-2 rounded hover:bg-gray-100">Blog</a>
+              <a className="px-5 py-2 rounded hover:bg-gray-100">Resources</a>
             </nav>
             <Link
               href={
@@ -51,20 +51,18 @@ const Hero = () => {
         </header>
         <div className="flex flex-col items-center justify-center pt-10 mx-auto md:w-3/5">
           <h1 className="text-6xl font-extrabold text-center">
-            <span className="block">Build SaaS platforms</span>
-            <span className="block text-blue-600">like never before</span>
+            <span className="block">User feedback widget</span>
+            <span className="block text-blue-600">with customer feedback</span>
           </h1>
-          <p className="mt-5 text-center text-gray-600">
+          {/* <p className="mt-5 text-center text-gray-600">
             Quickly build landing pages that will help you get results fast
-          </p>
+          </p> */}
         </div>
         <div className="flex items-center justify-center space-x-5">
           <a className="px-10 py-3 text-center text-white bg-blue-600 rounded shadow hover:bg-blue-500">
             Get Started
           </a>
-          <a className="px-10 py-3 text-center text-blue-600 rounded shadow hover:bg-blue-50">
-            Live Demo
-          </a>
+
         </div>
       </div>
     </div>
